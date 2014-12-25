@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 	font-family: 'PT-Sans';
 	src: local("PT-Sans"),
 	url('PTSansRegular.ttf');
@@ -12,7 +12,7 @@
 }
 
 html {
-	background:	grey;
+    background:	grey;
     background-repeat:no-repeat;
     background-attachment:fixed;	
 }
@@ -47,7 +47,7 @@ html {
 	color: white;	
 	font-family: PT-Sans;
 	font-style: Italic;
-	font-size: 23px;
+	font-size: 20px;
 	line-height: 4px;
 }
 
@@ -167,7 +167,7 @@ main .content-second .photo {
 	width: 73px; 
 	height: 70px;
 	opacity: 0.8;
-	top: 91px;
+	top: 90px;
 	right: 223px;
 	
 }
@@ -214,9 +214,11 @@ main .article-content {
 	heigth: 80px;
 	background-color: #b1cecf;
 	opacity: 0.6;
-	margin: -2px 0 0 220px;
+	margin: -1px 0 0 220px;
 	padding: 10px 15px;
 	font-family: PT-Sans, Regular, sens-serif;
+	font-size: 15px;
+	
 }
 
 
@@ -228,19 +230,20 @@ main .title {
 
 
 /*Main Article*/
-article {	
+article {
+	margin-top: 5px;	
 	width: 1152px;
 	height: 485px;
 	background-image: url(images/background/background_dark.png);	
 }
 
 article .text {
-	width: 685px;
+	width: 680px;
 	height: 485px;
 	margin-left: 220px;
 	padding-top: 15px;
 	font-family: PT-Sans, Regular, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	color: #f6f9fb;
 	line-height: 25px;	
 }
@@ -276,7 +279,7 @@ main .video-snow .video-second {
 main .video-snow .play-first {
 	width: 55px;
 	position: absolute;
-	left: 465px;
+	left: 430px;
 	padding-top: 100px;
 	opacity: 0.4;
 }
@@ -284,7 +287,7 @@ main .video-snow .play-first {
 main .video-snow .play-second {
 	position: absolute;
 	width: 55px;
-	right: 475px;	
+	right: 445px;	
 	padding-top: 100px;	
 	opacity: 0.4;
 }
@@ -306,7 +309,7 @@ footer .text {
 	margin-left: 220px;
 	padding-top: 20px;
 	font-family: PT-Sans, Regular, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	color: #f6f9fb;
 	line-height: 25px;
 }
@@ -314,16 +317,16 @@ footer .text {
 footer .snowboard-footer {
 	width: 335px;
 	height: 296px;
-	margin: -380 0 280px 780px;
+	margin: -395 0 280px 780px;
 	background-image: url(images/pictures/snowboard_footer.png);
 }
 
 footer .text-contact {
 	font:  PT-Sans, Regular, sans-serif;
-	font-size: 16px;
-	width: 250px;
+	font-size: 14px;
+	width: 265px;
 	height: 40px;
-	margin: -310px 0 0 650px;
+	margin: -295px 0 0 650px;
 	color: #f6f9fb;
 	line-height: 5px;
 }
@@ -334,7 +337,7 @@ footer .contact-phone {
 
 footer .text-company {
 	font:  PT-Sans, Regular, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	width: 190px;
 	height:20px;
 	color: #f6f9fb; 
